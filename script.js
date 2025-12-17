@@ -6,7 +6,7 @@ const prime_array = [191, 193, 197, 199];
 const history = document.getElementById('history');
 
 let sign = ['✕', '=']; //問題生成時に素数の積が追加される
-let users_input = {};
+let users_input = {}; //ユーザが入力したボタンを把握する
 let correct = 0;
 let now_input = '';
 
