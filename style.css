@@ -65,7 +65,7 @@ footer {
     background-color: black;
     /* borderをつけた場合に要素の幅が広がらないようにする */
     box-sizing: border-box;
-
+    line-height: 1;
 }
 
 .question_sign {
@@ -86,4 +86,3 @@ footer {
     font-size: 8dvmin;
     color: darkgray;
 }
-
