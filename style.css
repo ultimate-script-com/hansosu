@@ -65,6 +65,9 @@ footer {
     background-color: black;
     /* borderをつけた場合に要素の幅が広がらないようにする */
     box-sizing: border-box;
+}
+
+.question_input>* {
     line-height: 1;
 }
 
