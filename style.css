@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    /* モバイルのアドレスバーなどの影響を受けないようにsvhを採用 */
+    width: 100svw;
+    height: 100svh;
+    background-color: #36393F;
+    display: grid;
+}
+
+header {
+    place-content: center;
+}
+
+main {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer {
+    width: 100svw;
+    color: silver;
+    /* 下寄せ */
+    align-self: end;
+    /* 下寄せ */
+    justify-self: center;
+    /* footer内のすべての要素を中央寄せ */
+    place-items: center;
+}
+
+#area_question {
+    width: 96dvmin;
+    display: grid;
+    grid-template-columns: 12fr 6fr 12fr 6fr 6fr;
+    color: #FFFFFF;
+}
+
+#area_button {
+    width: 96dvmin;
+    height: 22dvmin;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1dvmin;
+}
+
+.question_input {
+    display: grid;
+    place-content: center;
+    font-size: 9dvmin;
+    border: 0.6dvmin solid;
+    color: whitesmoke;
+    border-radius: 2%;
+    background-color: black;
+    /* borderをつけた場合に要素の幅が広がらないようにする */
+    box-sizing: border-box;
+
+}
+
+.question_sign {
+    display: grid;
+    place-content: center;
+    font-size: 10dvmin;
+    color: white;
+}
+
+.prime_button {
+    background-color: #15202B;
+    color: gainsboro;
+    font-size: 8dvmin;
+    border-radius: 10%;
+}
+
+#history {
+    font-size: 8dvmin;
+    color: darkgray;
+}
+
