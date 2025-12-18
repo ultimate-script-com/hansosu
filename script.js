@@ -7,7 +7,7 @@ const history = document.getElementById('history');
 
 let sign = ['✕', '=']; //問題生成時に素数の積が追加される
 let users_input = {}; //ユーザが入力したボタンを把握する
-let correct = 0;
+let correct = 0; //素数の積を代入するグルーバル変数
 let now_input = '';
 
 history.textContent = '入力欄に数字を入力';
