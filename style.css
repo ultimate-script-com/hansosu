@@ -37,7 +37,8 @@ footer {
     align-self: end;
     /* 下寄せ */
     justify-self: center;
-    place-content: center;
+    /* footer内のすべての要素を中央寄せ */
+    place-items: center;
 }
 
 #area_question {
