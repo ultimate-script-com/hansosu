@@ -8,6 +8,8 @@ html {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    /* 子要素の最大の幅を設定することで、広告がはみ出ないようにする */
+    max-width: 100svw;
 }
 
 body {
@@ -32,8 +34,6 @@ main {
 footer {
     display: grid;
     width: 100svw;
-     /* 子要素の最大の幅を設定することで、広告がはみ出ないようにする */
-    max-width: 100svw; 
     /* 下寄せ */
     align-self: end;
     /* 下寄せ */
