@@ -32,7 +32,8 @@ main {
 footer {
     display: grid;
     width: 100svw;
-    color: silver;
+     /* 子要素の最大の幅を設定することで、広告がはみ出ないようにする */
+    max-width: 100svw; 
     /* 下寄せ */
     align-self: end;
     /* 下寄せ */
